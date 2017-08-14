@@ -9,24 +9,23 @@
     <link rel="stylesheet" type="text/css" href="css/portfolio.css" />
 </head>
 
-<body class="container-fluid">
-    <div class="navbar navbar-inverse ">
-        <div id="navbar">
-            <ul class="nav navbar-nav">
-                <li><a href="#background">Background </a></li>
-                <li><a href="#portfolio"> Portfolio </a></li>
-                <li><a href="#contact"> Contact </a></li>
-                <li><a href="#footer"> About </a></li>
-            </ul>
-        </div>
+<body class="container-fluid outline">
+
+    <div id="navbar" class="navbar navbar-inverse ">
+
+        <ul class="nav navbar-nav">
+            <li><a href="#content">Background </a></li>
+            <li><a href="#portfolio"> Portfolio </a></li>
+            <li><a href="#contact"> Contact </a></li>
+            <li><a href="#footer"> About </a></li>
+        </ul>
     </div>
 
     <div id="content">
-        <div id="background" class="header container-fluid">
+        <div class="header">
             <div class="header-name row">
                 <div class="col-md-7">
                     Alfred Cazares
-
                     <div class="header-text">
                         Pursuing a Bachelor's of Engineering at the University of Texas at El Paso
                     </div>
@@ -47,61 +46,53 @@
                 </div>
             </div>
         </div>
-
-        <div id="portfolio" class="background ">
-            <h1 class="c fancy-underline portfolio-text" style="background: black"> Portfolio
-            </h1>
-            <div class="row" style="padding-top: 100px">
-                <div class="col">
-                    <!--<div class="col-md-6">-->
-                    <img class="thumbnail" src="http://res.cloudinary.com/alfdan2000/image/upload/v1496681275/lincoln-codepen_yhkk9s.png" alt="Thumbnail of lincoln-codepen page.">
-                    <p class="thumbnail-text"> Timeline of President Abraham Lincoln </p>
-                    </img>
-
-
-                    <!--<div class="col-md-6">-->
-                    <img class="thumbnail-future" src="http://res.cloudinary.com/alfdan2000/image/upload/v1496691057/Future_Sites_idwxzu.png"
-                        alt="Thumbnail of future sites under construction page.">
-                    </img>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-
-    <div id="contact" class="contact">
-        <h1 class="contact-header fancy-underline"> Contact Me </h1>
-        <div class="col">
-            <form id="form" action="https://script.google.com/macros/s/AKfycby7I85VuS9MGuoHg3qGePlEccp16cBxXJoNBGPoE0AJ5zLJfsI/exec"
-                method="post" enctype="text/plain">
-                <input type="text" placeholder="Full Name" name="Full_Name">
-                </input>
-                <input type="text" placeholder="Email Address" name="Email_address">
-                </input>
-                <input type="text" placeholder="Phone Number" name="Phone_Number">
-                </input>
-                <input type="text" placeholder="Message" name="Message">
-                </input>
-                <input type="submit" value="Submit">
-                </input>
-            </form>
-
-            <p class="text">To reach me for business information or even just help with your Rubiks cube. Please fill out your information
-                and I will contact you as soon as possible.</p>
-
-        </div>
     </div>
 
 
-    <div id="footer">
-        <div class="row">
+    <div id="portfolio" class=" outline col">
+
+        <h1 class="c fancy-underline portfolio-text" style="background: black"> Portfolio </h1>
+        <a href="http://alfredcazares.com/AbrahamLincoln/" class="thumbnail">
+                        <img  src="http://res.cloudinary.com/alfdan2000/image/upload/v1502732962/lincoln_r1ma2n.png" alt="Thumbnail of lincoln-codepen page."></img>
+                        <p > Timeline of President Abraham Lincoln </p>
+                    </a>
+        <a href="http://alfredcazares.com/Quote-Generator/" class="thumbnail">
+                        <img  src="http://res.cloudinary.com/alfdan2000/image/upload/v1502732975/quoteGenerator_wzkb9m.png" alt="Thumbnail of Quote Generator webpage"></img>
+                        <p > Random Quote Generator </p>
+                    </a>
+        <a href="http://alfredcazares.com/AbrahamLincoln/" class="thumbnail">
+                        <img  src="http://res.cloudinary.com/alfdan2000/image/upload/v1496691057/Future_Sites_idwxzu.png" alt="Thumbnail of future sites under construction page."> </img>
+                        <p> Future pages under development </p>
+        </a>
+    </div>
+
+    <div id="contact" class="outline col">
+        <h1 class="contact-header fancy-underline"> Contact Me
+        </h1>
+        <form id="form" action="https://script.google.com/macros/s/AKfycby7I85VuS9MGuoHg3qGePlEccp16cBxXJoNBGPoE0AJ5zLJfsI/exec"
+            method="post" enctype="text/plain">
+            <input type="text" placeholder="Full Name" name="Full_Name"></input>
+            <input type="text" placeholder="Email Address" name="Email_address"></input>
+            <input type="text" placeholder="Phone Number" name="Phone_Number"></input>
+            <input type="text" placeholder="Message" name="Message"></input>
+            <input type="submit" value="Submit"></input>
+        </form>
+        <p class="text">To reach me for business information or even just help with your Rubiks cube. Please fill out your information and
+            I will contact you as soon as possible.
+        </p>
+    </div>
+
+
+
+    <div id="footer" class="outline">
+        <div class=" row">
             <div class="col-md-6">
                 <p style="text-decoration: underline"> About This Page</p>
                 <p> Made using <img class="footer-img" src="http://res.cloudinary.com/alfdan2000/image/upload/v1496781600/Bootstrap_tk92zu.png"
                         alt="image of bootstrap"></img> and plenty of <img class="footer-img" src="http://res.cloudinary.com/alfdan2000/image/upload/v1496782808/invert-coffee_i2pdb2.png"
                         alt="Image of Coffee"></img>
                 </p>
-                <p> by Alfred Cazares.</p>
+                <p>by Alfred Cazares.</p>
             </div>
             <div class="col-md-6">
                 <p style="text-decoration: underline"> Around The Web </p>
@@ -109,25 +100,27 @@
                     <ul id="links">
                         <li>
                             <a href="https://www.linkedin.com/in/alfred-cazares/">
-                <img id="linkedin-link" src="http://res.cloudinary.com/alfdan2000/image/upload/v1496783287/Linkedin_iu88hr.png" alt="Linkedin Image">
-                </img>
-              </a>
+                                <img id="linkedin-link" src="http://res.cloudinary.com/alfdan2000/image/upload/v1496783287/Linkedin_iu88hr.png" alt="Linkedin Image"></img>
+                
+                            </a>
                         </li>
                         <li>
                             <a href="https://www.linkedin.com/in/alfred-cazares/">
-                <img id="twitter-link" src="http://res.cloudinary.com/alfdan2000/image/upload/v1496783480/twitter_jjvphh.png" alt="Twitter image"></img>
-              </a>
+                                 <img id="twitter-link" src="http://res.cloudinary.com/alfdan2000/image/upload/v1496783480/twitter_jjvphh.png" alt="Twitter image"></img>
+                            </a>
                         </li>
                         <li>
                             <a href="https://www.facebook.com/JandFJumping/?view_public_for=857912594313964">
-                <img id="jandF-link" src="http://res.cloudinary.com/alfdan2000/image/upload/v1496783735/J-and-F_gjnmnp.png" alt="JandF image"></img>
-              </a>
+                                <img id="jandF-link" src="http://res.cloudinary.com/alfdan2000/image/upload/v1496783735/J-and-F_gjnmnp.png" alt="JandF image"></img>
+                            </a>
                         </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-    </div>
+
+
 </body>
 
 </html>
