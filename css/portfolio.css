@@ -12,8 +12,9 @@
 .header {
   background-color: #000000;
   background-image: url("http://res.cloudinary.com/alfdan2000/image/upload/v1496332205/LIGHTNING_qm1dx3.jpg");
-  height: 500px;
+  height: 0;
   width: 100%;
+  padding-bottom: 30%;
   background-size: cover;
   background-position: center center;
   text-align: center;  
@@ -35,9 +36,10 @@
 }
 
 .img {
-  height: 300px;
-  margin-left: 0px;  
-  margin-top: 60px;  
+  height: 10%; 
+  width: 80%;  
+  margin-top: 10%; 
+  margin-right: 20%; 
   border-color: black;
   border-width: 20px;
   border-style: solid;
@@ -63,21 +65,21 @@
   color: white;
   font-family: 'Mogra', serif;
   font-size: 60px;
-  margin-top: 40px;
+  margin-top: 1%;
 }
 
 .thumbnail {
   width: 25%;  
   height: 30%; 
   float: left;
-  margin: 40px;
+  margin: 4%;
   font-size: 25px;
   text-align: center;
   color: black;
   font-family: 'Dancing Script', serif;
 }
 .row{
-    padding-left: 150px;
+    padding-left: 10;
 }
 
 .thumbnail-future {
@@ -86,8 +88,7 @@
   
 }
 
-.thumbnail-text {
-  
+.thumbnail-text {  
   padding-left: 60px;
 }
 
@@ -102,16 +103,13 @@
   background: black;
   border-width: 10px;
   border-style: solid;
-  border-color: white;
-  margin: 10px;
-  padding: 30px;
-  padding-top: 60px;
+  border-color: white;  
 }
 
 input[type=text] {
-  width: 80%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  width: 95%;
+  padding: 1% 1%;
+  margin: 1% 0;
   box-sizing: border-box;
   color: black;
 }
@@ -122,7 +120,7 @@ input[type=text] {
 }
 .col{   
  overflow: auto;
- margin: 500px; 
+ margin: 50%; 
 }
 #footer{  
   color: white;  
@@ -141,27 +139,27 @@ input[type=text] {
   
 }
 .footer-img{
-  width: 40px;
+  width: 9%;
 }
 #linkedin-link{ 
-  width: 100px;
-  height: 100px;
+  width: 20%;
+  height: 20%;
   border-radius: 50%;
   border-color: white;
   border-style: solid;
   border-width: 2px;  
 }
 #twitter-link{  
-  width: 100px;
-  height: 100px;
+  width: 20%;
+  height: 20%;
   border-radius: 50%;
   border-color: white;
   border-style: solid;
   border-width: 2px;  
 }
 #jandF-link{  
-  width: 100px;
-  height: 100px;
+  width: 20%;
+  height: 20%;
   border-radius: 50%;
   border-color: white;
   border-style: solid;
@@ -183,7 +181,7 @@ input[type=text] {
 }
 
 #content{
-  margin-top: 60px;
+  margin-top: 1%;
 }
 li{
   display: inline;  
