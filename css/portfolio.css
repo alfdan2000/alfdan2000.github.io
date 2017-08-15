@@ -6,7 +6,7 @@
   border-color: white;
   border-width: 10px;
   border-style: solid;
-  padding: 20px;
+  padding: 10%;
 }
 
 .header {
@@ -24,15 +24,17 @@
 }
 
 .header-name {
-  position: absolute;
-  text-align: center;
-  font-size: 100px;
+  padding-top: 1%;
+  text-align: center ;
+  font-size: 45px;
   color: yellow;
+  overflow: auto;
 }
 .header-text{   
   text-align: center;
-  font-size: 25px;
+  font-size: 15px;
   color: yellow;
+  overflow: auto;
 }
 
 .img {
@@ -41,7 +43,7 @@
   margin-top: 5%; 
   margin-right: 20%; 
   border-color: black;
-  border-width: 20px;
+  border-width: 5px;
   border-style: solid;
   border-radius: 50%;
 }
@@ -79,7 +81,7 @@
   font-family: 'Dancing Script', serif;
 }
 .row{
-    padding-left: 10;
+    padding-left: 1%;
 }
 
 .thumbnail-future {
@@ -120,23 +122,22 @@ input[type=text] {
 }
 .col{   
  overflow: auto;
- margin: 50%; 
+ 
 }
 #footer{  
   color: white;  
   text-align: center;
   font-size: 30px;  
 }
-.outline{
-  padding-left: 150px;
+.outline{  
   background: black;
   border-width: 10px;
   border-style: solid;
   border-color: white;
-  margin: 40px;
-  padding: 30px;
-  padding-top: 60px;
-  max-width: 99%;
+  margin: 1%;
+  padding: 2%;  
+  max-width: 100%;
+  overflow: auto;
 }
 .footer-img{
   width: 9%;
@@ -167,7 +168,7 @@ input[type=text] {
 }
 .navbar{
   background: black;
-  text-align: right;
+  text-align: center;
   font-size: 30px;
   position: fixed;
   width: 90%;
