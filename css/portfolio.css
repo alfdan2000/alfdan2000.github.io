@@ -8,10 +8,15 @@
   border-style: solid;
   padding: 10%;
 }
+.spaceBackground{
+  background-image: url("http://res.cloudinary.com/alfdan2000/image/upload/v1502892469/stars_tr1os3.jpg");
+  background-position: center center;
+  background-size: 100% 100%;
+}
 
 .header {
   background-color: #000000;
-  background-image: url("http://res.cloudinary.com/alfdan2000/image/upload/v1496332205/LIGHTNING_qm1dx3.jpg");
+  background-image: url("http://res.cloudinary.com/alfdan2000/image/upload/v1502891707/earth_yqdltl.jpg");
   height: 0;
   width: 100%;
   padding-bottom: 30%;
@@ -27,13 +32,13 @@
   padding-top: 1%;
   text-align: center ;
   font-size: 45px;
-  color: yellow;
+  color: white;
   overflow: auto;
 }
 .header-text{   
   text-align: center;
   font-size: 15px;
-  color: yellow;
+  color: white;
   overflow: auto;
 }
 
@@ -96,7 +101,7 @@
 
 .contact-header {
   text-align: center;
-  color: #4083ef;
+  color: white;
   font-size: 60px;
   font-family: 'Lobster Two', serif;
 }
@@ -131,6 +136,29 @@ input[type=text] {
 }
 .outline{  
   background: black;
+  border-width: 10px;
+  border-style: solid;
+  border-color: white;
+  margin: 1%;
+  padding: 2%;  
+  max-width: 100%;
+  overflow: auto;
+}
+.portfolioOutline{
+  background-image: url("http://res.cloudinary.com/alfdan2000/image/upload/v1502892469/stars_tr1os3.jpg");
+  background-position: center center;
+  background-size: 100% 100%;
+  border-width: 10px;
+  border-style: solid;
+  border-color: white;
+  margin: 1%;
+  padding: 2%;  
+  max-width: 100%;
+  overflow: auto;
+}
+.mainBackground{
+  background: black;
+  background-image: url("http://res.cloudinary.com/alfdan2000/image/upload/v1502891808/space-1_lfgoek.jpg");
   border-width: 10px;
   border-style: solid;
   border-color: white;
